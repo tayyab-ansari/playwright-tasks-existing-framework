@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task": "npx cucumber-js --tags '@task' --retry 0 --exit --format html:cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1"
+  }
+}
